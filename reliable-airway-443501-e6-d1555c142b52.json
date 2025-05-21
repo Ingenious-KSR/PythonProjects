@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reliable-airway-443501-e6",
+  "private_key_id": "d1555c142b5248a67bc3e40afaf10022ede39206",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0PAp7zBq4W7hJ\nSW5X1fb8swkjmpWCKWj6BZIc2QsqBlxEZst516cAal2ZiW+YP8+rbMgpoLxAvRUi\nKEEhpKfzhT1esiRL6+Eyub0zvSOv8z+EUJ4JO1+rI94C2O4yfXdHdIGa1cF7Fp1o\n6Hl73Pn6CnE/+DBU6ggryreOabmdZ+QY7JFttMkbZGbzdh3z/9ganwArxMjSBx2c\n7SSF+oCCYGwEYJ3x+CETbb6QEZ6N3h3BdImhLEAp4U9+FaYNhD7gR8TYBjiYvYlm\nFPw2TFjQwB0uDP8Q2b7RANAyL2RCJij0vFoCL3oCno3mlTTSlUabR18gYKB9yQzL\nUz3azSyNAgMBAAECggEACqGMAMII8BzrjC8aT3CzJolXnakC7prgsqFc0qTJcCDQ\nlRxMc5MRKl4bx/BVC8b1Hz3FuhGIE81+D0tj5Bx2kk+mpLefRSHUYQ3sUhPy+fBA\nK97ReOaZUwVE6tK+4hgyeUgu/jdjjTjH73s0RzvBPErHY/2QuZbVr+I/h3/xpI4g\njOPuiyTd0SHGA1Cf1ZfspvXSSD7qONrWml82nUcFRJJH1XOdVpmPaJHPeb0I4pV+\n9r4S//wKIgliOYKGaprNr9MWZPVKgwQQHR8QYP9giSpcO7sZ9zZBQ281M5I2A3jy\nGPCaznMWwNlQLM1KeXq+BuVIXLwmSpdXOfOigCFIgQKBgQDZfoi/7PT1XwewphOE\nPO84YU29NDy1CBk4oVnR0VGKdqEf2rl8tkyfYWcaKVw6cjgyORJ2f7g4j2VT614X\nR1FgUh8orDPLlS9i7BYapqWu4Xr62tYBafzh4rQszXfDrW8ruRR4S8+zOKnA+91r\nfHONC7G56vzm66GkM7yL/PTVoQKBgQDUJMnL9QicITn0/Q6vSioamWNebGG/K3OB\nFLVoQyHOUQDawsFTBPQcE7xslQgV7DTchzuSTIpW5AC+nCMtN7bVo8M6iCi6kGAu\np2+EYT6Aky5v3grW6X3YHfi2XsYiwRDF9zMq6I6KEMobQJRh6ORS3xO4A9eX1f3g\nSKMBLKTXbQKBgGwqKrZQkS6qmTd4EMK2Tz5Z3gCXxw09PtXUIMhhck0LXGxsKc1l\nGEw3c8AmC7EhduM7UPxP3n16iykmKAApvsXJcaeXpJa91fg7c27DrCiCCNhTFxVS\n8aohRfv2H3bYfS5geFavVVdLedj5KZA4L3tY8oWE4UuyqgvwkveH0PehAoGAecG7\niDHUhTeUugVbnkOksquCmrj9yOi5XEZ0b6jICE/5e5T3vBxFtq+lH3TRtTNii4ea\nKzd+1qv5uWyHy/YEG83nyPpI1frzGRPEL2hYpRbUOiRoeDx+m8Fn89OlSGEirVxZ\no7DhzmAgf0+rWh5+nQmnmZ+q51xMX6OQ2qWy3mkCgYAlZla2rKiIoEP+YLATTlu8\nZN5O7QKgfhx+419DvyDqeYSpg4WHx32lPRBep5Aup1mnPYAou8P16gyseQo7x8KL\nikmAHX9HgkMv+CshSsgrmyM4nmrBUEE2waCkp8VuPrY7+BYuw4AbR4kCmzt77zYF\n3jD4ooe07Z1f3Sb9TsfaMw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "jondaxsrv01@reliable-airway-443501-e6.iam.gserviceaccount.com",
+  "client_id": "118069964851428599513",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jondaxsrv01%40reliable-airway-443501-e6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
