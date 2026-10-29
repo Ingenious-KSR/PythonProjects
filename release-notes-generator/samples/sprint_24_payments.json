@@ -1,0 +1,20 @@
+{
+  "tickets": [
+    {"id": "PAY-101", "title": "Add Apple Pay support at checkout", "type": "Story", "status": "Done", "component": "checkout-ui", "labels": ["payments"], "priority": "High",
+     "description": "Customers on iOS Safari can pay with Apple Pay. Uses Stripe Payment Request API. Merchant validation endpoint added to checkout-service."},
+    {"id": "PAY-102", "title": "Fix duplicate charge when user double-clicks Pay", "type": "Bug", "status": "Done", "component": "checkout-service", "labels": ["payments"], "priority": "Critical",
+     "description": "Added idempotency key to charge requests so a repeated click within 5 seconds no longer creates a second charge."},
+    {"id": "PAY-103", "title": "Upgrade TLS config to disable TLS 1.0/1.1", "type": "Task", "status": "Done", "component": "api-gateway", "labels": ["security"], "priority": "High",
+     "description": "Gateway now only accepts TLS 1.2+. Clients on older TLS will fail to connect."},
+    {"id": "PAY-104", "title": "Rename /v1/payments to /v2/payments", "type": "Story", "status": "Done", "component": "api-gateway", "labels": ["breaking"], "priority": "High",
+     "description": "v1 endpoint removed. Response field 'amt' renamed to 'amount'. Integrators must update before upgrading."},
+    {"id": "PAY-105", "title": "Faster invoice PDF generation", "type": "Improvement", "status": "Done", "component": "invoice-service", "labels": [], "priority": "Medium",
+     "description": "Switched renderer to a cached template; average generation time reduced from 4.2s to 1.1s."},
+    {"id": "PAY-106", "title": "Refactor payment module to use dependency injection", "type": "Task", "status": "Done", "component": "checkout-service", "labels": ["refactor"], "priority": "Low",
+     "description": "No functional change. Prepares for provider plug-ins."},
+    {"id": "PAY-107", "title": "Receipts email shows wrong currency symbol for JPY", "type": "Bug", "status": "Done", "component": "notifications", "labels": [], "priority": "Medium",
+     "description": "JPY amounts were shown with a $ sign in receipt emails. Now uses the ISO currency symbol."},
+    {"id": "PAY-108", "title": "Export transactions as CSV", "type": "Story", "status": "Done", "component": "dashboard", "labels": [], "priority": "Medium",
+     "description": "Finance users can download filtered transaction lists as CSV from the dashboard (max 50,000 rows)."}
+  ]
+}

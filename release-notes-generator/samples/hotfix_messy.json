@@ -1,0 +1,9 @@
+[
+  {"key": "OPS-31", "summary": "login broken on safari", "issuetype": "Bug", "status": "Resolved", "labels": "auth;hotfix", "description": "Safari 17 blocked the session cookie because SameSite was unset. Set SameSite=Lax."},
+  {"key": "OPS-32", "summary": "misc fixes", "issuetype": "Task", "status": "Done", "labels": "", "description": ""},
+  {"key": "OPS-31", "summary": "login broken on safari (dup)", "issuetype": "Bug", "status": "Resolved", "labels": "auth", "description": "duplicate row from export"},
+  {"key": "OPS-33", "summary": "Add retry to nightly sync job", "issuetype": "Improvement", "status": "Done", "labels": "reliability", "description": "Sync job retries 3 times with backoff before alerting on-call."},
+  {"key": "OPS-34", "summary": "New reporting widget", "issuetype": "Story", "status": "In Progress", "labels": "", "description": "Still being built; not part of this release."},
+  {"key": "OPS-35", "summary": "Clean up unused feature flags", "issuetype": "Task", "status": "Done", "labels": "tech-debt", "description": "Removed 12 stale flags from config."},
+  {"summary": "Row with no id at all", "status": "Done"}
+]

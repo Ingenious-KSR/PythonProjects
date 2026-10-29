@@ -1,0 +1,8 @@
+id,title,type,status,labels,component,priority,description
+DATA-201,Move user profiles to new PostgreSQL schema,Story,Done,breaking,user-service,High,"Run migration script scripts/migrate_profiles.sh before deploying. Downtime approx 10 minutes. Old table 'profiles_v1' is dropped after 30 days."
+DATA-202,Add bulk user import,Story,Done,,admin-portal,Medium,"Admins can upload a CSV of up to 5000 users. Invalid rows are reported in a downloadable error file."
+DATA-203,Search results slow for accounts with over 100k records,Bug,Open,known-issue,search,Medium,"Queries can take 8-10s on very large accounts. Workaround: use date filters. Fix planned next release."
+DATA-204,Fix timezone offset on scheduled reports,Bug,Done,,reporting,High,"Reports scheduled for 09:00 in IST were sent at 03:30 UTC+0 display. Now stored with explicit timezone."
+DATA-205,Rotate leaked staging API key and add secret scanning,Task,Done,security,devops,Critical,"Key rotated; pre-commit secret scanning enabled in all repos. No production impact."
+DATA-206,Upgrade Node.js runtime from 16 to 20,Task,Done,internal,build,Low,"CI and containers updated. No user-facing change."
+DATA-207,Dashboard loads faster,Improvement,Done,,dashboard,Medium,"Lazy-load charts below the fold; median load time 3.1s -> 1.4s."
